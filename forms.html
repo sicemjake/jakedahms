@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+  <meta charset="utf-8"> 
+  <title> All Forms</title>    
+</head>
+<div class="topnav">
+    <a class="active" href="JDHome.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+  </div>
+
+<body>
+<br>
+<h1>Forms & More!</h1>
+    <h3>Practice Form</h3>
+    <form id="" action="mailto:jake.dahms@gmail.com" method="POST" enctype="text/plain">
+        Text Input <input type="text"><br>
+        Phone Number <input type="tel" name="phone" autocomplete="on"><br>
+        E-mail: <input type="email" name="email" autocomplete="on"><br>
+        Checkbox <input type="checkbox" name="mailinglist" id="mailinglist"><br>
+        Text Area <textarea name="textarea" id="textarea" cols="30" rows="10">text in textarea</textarea> <br>
+        Password <input type="password"> <br>
+        <input type="submit" Submit>
+    </form>
+
+    <hr>
+        DropDown 
+        <select name="Select" id="select">
+            <option value="choice 1">choice 1</option>
+            <option value="choice 2">choice 2</option>
+            <option value="choice 3">choice 3</option>
+        </select><br>
+    <hr>
+        MultiSelect 
+        <select name="multi" size="4" multiple>
+                <option value="choice 1">choice 1</option>
+                <option value="choice 2">choice 2</option>
+                <option value="choice 3">choice 3</option>
+                <option value="choice 4">choice 4</option>
+        </select><br>      
+    <hr>
+ 
+        <form>
+            <label for="">Data List Form</label>
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist> 
+        </form> 
+    <hr>
+        <h3>Form Calculations</h3>
+    
+         <form action="/action_page.php"
+            oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            0 
+            <input type="range" id="a" name="a" value="45"> 
+            100 +
+            <input type="number" id="b" name="b" value="50">
+            = 
+            <output name="x" for="a b"></output>
+            <br><br>
+            <input type="submit">
+         </form>
+    <hr>
+
+
+
+</body>
+
+    <footer>   
+    
+        <a href="codingresources.html">Resources</a>
+    
+    </footer>
